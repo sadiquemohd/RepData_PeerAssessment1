@@ -1,8 +1,17 @@
+---
+title: "PA1_template"
+output:  md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ## Activity Monitoring Analysis
 
 ```{r echo=TRUE}
 # Download and Load the data
-fpath <- "F:/c5proj/"
+fpath <- "C:/c5proj1/"
   setwd(fpath)
   fname <- "activity.csv"
   zipfile<- "activity.zip"
